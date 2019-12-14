@@ -1,0 +1,4 @@
+python-telegram-bot
+mss
+datetime
+pathlib
