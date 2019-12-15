@@ -6,7 +6,7 @@ from pathlib import Path
 
 try:
     PassFileDir = str(Path(__file__).parent) + "/passwd.sha256"
-    print("\nYou need this password when using critical command (reboot , shutdown) \n")
+    print("\nYou need this password when using critical command (reboot , shutdown , kill) \n")
     while True:
         final_passwd = ""
         first_passwd = getpass("\nEnter new password: ",stream=None)
