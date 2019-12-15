@@ -33,14 +33,14 @@ This script supports (**Windows** - **Linux** - **Mac OS**)<br><br><br>
 
 ## **Windows**
 1. `python -m pip install -r requirements.txt` **Installing requirements**<br>
-2. `python password.py` **to create password for critical command (shutdown , reboot) Default password is: *lucid2019***<br>
+2. `python password.py` **to create password for critical command (shutdown , reboot , kill) Default password is: *lucid2019***<br>
 3. `python lucid.py`
 
 <br>
 
 ## **Linux / Mac OS**
 1. `pip3 install -r requirements.txt` **Installing requirements**<br>
-2. `python3 password.py` **to create password for critical command (shutdown , reboot) Default password is: *lucid2019***<br>
+2. `python3 password.py` **to create password for critical command (shutdown , reboot , kill) Default password is: *lucid2019***<br>
 3. `sudo python3 lucid.py` **(If you run script without sudo, reboot and shutdown stop working)**
 
 <br>
@@ -53,6 +53,7 @@ This script supports (**Windows** - **Linux** - **Mac OS**)<br><br><br>
       /screenshot - Take screenshot and send
       /reboot - Reboot OS
       /shutdown - Shutdown OS
+      /kill - killing your process
 
 
 
