@@ -62,5 +62,5 @@ This script supports (**Windows** - **Linux** - **Mac OS**)<br><br><br>
 
 ## **This script is tested on**
 - ### **Windows 8.1/10**
-- ### **Linux 4.9**
+- ### **Linux 4.19**
 - ### **Mac OS Mojave**
