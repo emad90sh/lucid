@@ -9,7 +9,7 @@ def rebooting():
     if osName.startswith("Windows"):
         os.system("shutdown /r /t 0")
     elif osName.startswith("Linux") or osName.startswith("Darwin"):
-        os.system("reboot now")
+        os.system("sudo reboot now")
 
 
 def rebootFunc(update,context):
@@ -32,7 +32,7 @@ def shuttingDown():
     if osName.startswith("Windows"):
         os.system("shutdown /s /t 0")
     elif osName.startswith("Linux") or osName.startswith("Darwin"):
-        os.system("shutdown now")
+        os.system("sudo shutdown -h now")
 
 
 def shutdownFunc(update,context):
