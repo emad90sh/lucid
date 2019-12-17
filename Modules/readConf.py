@@ -99,13 +99,3 @@ def readingConf():
 
         return photo_dir,video_dir,audio_dir,document_dir,screenshot_dir,process_time_out,token.rstrip(),userN.rstrip()
 
-
-# if not readingConf():
-#     pass
-# else:
-#     pd,vd,dd,sd,pt = readingConf()
-#     print("photo is: " +str(pd))
-#     print("video is: " +str(vd))
-#     print("document is : " +str(dd))
-#     print("screen is :" +str(sd))
-#     print("process is :" + str(pt))
